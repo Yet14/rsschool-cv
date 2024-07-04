@@ -6,12 +6,15 @@ Currently I have started training at RS-school. My goal for the course is to gai
 * **Phone:** +79888736227
 * **Telegram:** @Yet14 
 * **Discord:** Yet1 (@Yet14)
-## **Skills**
+# **Skills**
 * Git, GitHub
 * HTML, CSS
 * Windows OS
 * VSCode
-### **Code examples**
+## **Code examples**
 `print ('hello world!')`
-### **Courses**
+# **Courses**
 [RS School](https://app.rs.school "The Rolling Scopes School") Course JS/FE Pre-School (in progress)
+# **Languages**
+* English: A2 Elementary
+* Russian: C2 Mastery

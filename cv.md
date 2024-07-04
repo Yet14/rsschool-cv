@@ -13,4 +13,5 @@ Currently I have started training at RS-school. My goal for the course is to gai
 * VSCode
 ### **Code examples**
 `print ('hello world!')`
-
+### **Courses**
+[RS School](https://app.rs.school "The Rolling Scopes School") Course JS/FE Pre-School (in progress)

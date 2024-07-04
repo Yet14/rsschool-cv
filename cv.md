@@ -6,4 +6,9 @@ Currently I have started training at RS-school. My goal for the course is to gai
 * **Phone:** +79888736227
 * **Telegram:** @Yet14 
 * **Discord:** Yet1 (@Yet14)
+## **Skills**
+* Git, GitHub
+* HTML, CSS
+* Windows OS
+* VSCode
 

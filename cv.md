@@ -11,4 +11,6 @@ Currently I have started training at RS-school. My goal for the course is to gai
 * HTML, CSS
 * Windows OS
 * VSCode
+### **Code examples**
+`print ('hello world!')`
 

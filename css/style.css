@@ -73,7 +73,7 @@ body {
   width: 90%;
   border-radius: 100%;
   margin-bottom: 20px;
-  padding: 5% 5%;
+  padding: 5% 2%;
 }
 
 #contacts {
@@ -183,6 +183,34 @@ body {
   justify-content: center;
   color: whitesmoke;
   margin-bottom: 45px;
+}
+
+#projects {
+  margin-bottom: 45px;
+  margin-top: 45px;
+  padding: 20px 20px;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+}
+
+.projects__list {
+  display: flex;
+  justify-content: center;
+}
+
+.projects__link {
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  margin-bottom: 45px;
+}
+
+.project-img img {
+  margin-bottom: 45px;
+  padding-left: 31%;
 }
 
 h1 {

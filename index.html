@@ -5,149 +5,163 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV Yet14</title>
 
-    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap"
+      rel="stylesheet"
     />
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a class="menu__link" href="#about">About Me</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#contacts">Contacts</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#skills">Skills</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#education">Courses</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#projects">Projects</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#code">Code</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#languages">Languages</a>
-            </li>
-          </ul>
-        </nav>
+      <div class="container__header">
+        <div class="container">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="#about">About Me</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#contacts">Contacts</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#skills">Skills</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#education">Courses</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#projects">Projects</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#code">Code</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#languages">Languages</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
     <main class="main">
-      <div class="container-left">
-        <section id="me">
-          <span class="photo">
-            <img src="assets/img/image1.png" alt="My Photo" />
-          </span>
-          <h1 class="name">David&nbsp;Gogaev</h1>
-          <hr class="solid-left" />
-        </section>
-        <section id="contacts">
-          <h2 class="contacts">Contacts</h2>
-          <ul class="contacts__list">
-            <li class="contacts__item">
-              <a
-                class="contacts__link"
-                href="https://t.me/yet14"
-                target="_blank"
-                >Telegram</a
-              >
-            </li>
-            <li class="contacts__item">
-              <a
-                class="contacts__link"
-                href="mailto:davidgogaev14@gmail.com"
-                target="_blank"
-                >Gmail</a
-              >
-            </li>
-            <li class="contacts__item">
-              <a class="contacts__link" href="tel:+79888736227" target="_blank"
-                >Phone</a
-              >
-            </li>
-            <li class="contacts__item">
-              <a
-                class="contacts__link"
-                href="https://discordapp.com/users/196694401270022145"
-                target="_blank"
-                >Discord</a
-              >
-            </li>
-          </ul>
-          <hr class="solid-left" />
-        </section>
-        <section id="skills">
-          <h2 class="skills">Skills</h2>
-          <ul class="skills__list">
-            <li class="skills__html">HTML</li>
-            <li class="skills__css">CSS</li>
-            <li class="skills__github">GitHub</li>
-          </ul>
-          <hr class="solid-left" />
-        </section>
+      <div class="container__left">
+        <div class="container">
+          <section id="me">
+            <span class="photo">
+              <img src="assets/img/image1.png" alt="My Photo" />
+            </span>
+            <h1 class="name">David&nbsp;Gogaev</h1>
+          </section>
+          <hr class="solid__left" />
+          <section id="contacts">
+            <h2 class="contacts">Contacts</h2>
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <a
+                  class="contacts__link"
+                  href="https://t.me/yet14"
+                  target="_blank"
+                  >Telegram</a
+                >
+              </li>
+              <li class="contacts__item">
+                <a
+                  class="contacts__link"
+                  href="mailto:davidgogaev14@gmail.com"
+                  target="_blank"
+                  >Gmail</a
+                >
+              </li>
+              <li class="contacts__item">
+                <a
+                  class="contacts__link"
+                  href="tel:+79888736227"
+                  target="_blank"
+                  >Phone</a
+                >
+              </li>
+              <li class="contacts__item">
+                <a
+                  class="contacts__link"
+                  href="https://discordapp.com/users/196694401270022145"
+                  target="_blank"
+                  >Discord</a
+                >
+              </li>
+            </ul>
+          </section>
+          <hr class="solid__left" />
+          <section id="skills">
+            <h2 class="skills">Skills</h2>
+            <ul class="skills__list">
+              <li class="skills__html">HTML</li>
+              <li class="skills__css">CSS</li>
+              <li class="skills__github">GitHub</li>
+            </ul>
+          </section>
+          <hr class="solid__left" />
+          <section id="languages">
+            <h2 class="languages">Languages</h2>
+            <h3 class="languages__item">Russian C2</h3>
+            <h3 class="languages__item">English A2</h3>
+          </section>
+        </div>
       </div>
-      <div class="container-right">
-        <section id="about">
-          <h2 class="about">About Me</h2>
-          <h3 class="about">
-            Currently I have started training at RS-school. My goal for the
-            course is to gain all the knowledge it will give me and learn to use
-            it in practice. I am a very responsible person, ready to spend all
-            my time learning or completing assigned tasks and enjoying this
-            process. My strengths are perseverance, determination, the ability
-            to remain calm in any situation and solve it.
-          </h3>
-        </section>
-        <hr class="solid-right" />
-        <section id="courses">
-          <h2 class="courses">Courses</h2>
-          <h3 class="courses__list>">
-            <a
-              class="courses__item"
-              href="https://app.rs.school/"
-              target="_blank"
-              >RS School Course JS/FE Pre-School <br />(in progress)</a
-            >
-          </h3>
-        </section>
-        <hr class="solid-right" />
-        <section id="projects">
-          <h2 class="projects">Projects</h2>
-          <h3 class="projects__list">
-            <a
-              class="projects__item"
-              href="https://yet14.github.io/rsschool-cv/cv"
-              target="_blank"
-              >CV#1. Markdown & Git</a
-            >
-          </h3>
-          <span class="cv-img"
-            ><img src="/assets/img/cv.jpg" alt="CV Project"
-          /></span>
-          <hr class="solid-right" />
-        </section>
+      <div class="container__right">
+        <div class="container">
+          <section id="about">
+            <h2 class="about">About Me</h2>
+            <h3 class="about">
+              Currently I have started training at RS-school. My goal for the
+              course is to gain all the knowledge it will give me and learn to
+              use it in practice. I am a very responsible person, ready to spend
+              all my time learning or completing assigned tasks and enjoying
+              this process. My strengths are perseverance, determination, the
+              ability to remain calm in any situation and solve it.
+            </h3>
+          </section>
+          <hr class="solid__right" />
+          <section id="courses">
+            <h2 class="courses">Courses</h2>
+            <h3 class="courses__list>">
+              <a
+                class="courses__item"
+                href="https://app.rs.school/"
+                target="_blank"
+                >RS School Course JS/FE Pre-School <br />(in progress)</a
+              >
+            </h3>
+          </section>
+          <hr class="solid__right" />
+          <section id="projects">
+            <h2 class="projects">Projects</h2>
+            <h3 class="projects__list">
+              <a
+                class="projects__item"
+                href="https://yet14.github.io/rsschool-cv/cv"
+                target="_blank"
+                >CV#1. Markdown & Git</a
+              >
+            </h3>
+            <span class="cv__img"
+              ><img src="/assets/img/cv.jpg" alt="CV Project"
+            /></span>
+          </section>
+          <hr class="solid__right" />
+          <section id="code">
+            <h2 class="code">Code</h2>
+            <pre><code class="code__example">`console.log("Hello World!");`</code></pre>
+          </section>
+        </div>
       </div>
     </main>
-    <footer>
-      <div class="container">
-        <ul class="socials">
-          <li class="social-item"></li>
-          <li class="social-item"></li>
-          <li class="social-item"></li>
-        </ul>
+    <footer class="footer">
+      <div class="container__footer">
+        <div class="container"></div>
       </div>
     </footer>
   </body>

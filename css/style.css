@@ -277,37 +277,47 @@ body {
   background: url(../assets/img/header-background.jpg);
   background-size: cover;
   background-position: bottom;
-  padding: 20px 20px;
   width: 100%;
-  height: 183px;
+  height: 130px;
   min-width: 1200px;
+  padding: 0px 0px;
+  margin: 0px 0px;
 }
 
 .container__footer {
-  padding: 0px 0px;
-  margin: 0px 0px;
+  display: flex;
+  justify-content: left;
+
+  max-height: 130px;
 }
 
 .git__logo {
   filter: invert(99%) sepia(3%) saturate(504%) hue-rotate(201deg)
     brightness(114%) contrast(92%);
-  width: 250px;
-  height: 250px;
-  margin: -55px 500px;
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-right: 0px;
+  margin-top: 17px;
 }
 
 .rs__logo {
   filter: invert(99%) sepia(3%) saturate(504%) hue-rotate(201deg)
     brightness(114%) contrast(92%);
-  width: 250px;
-  height: 250px;
+  width: 100px;
+  height: 120px;
+  margin-left: 0px;
+  margin-right: 20px;
+  margin-top: 5px;
 }
 
 .date {
-  display: flex;
-  justify-content: end;
   color: whitesmoke;
   font-size: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: center;
 }
 
 h1 {

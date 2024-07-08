@@ -124,8 +124,8 @@ body {
 .about {
   display: flex;
   justify-content: center;
-  margin-bottom: 25px;
-  padding: 20px 20px;
+  margin-bottom: 35px;
+  padding: 20px 170px;
 }
 
 #skills {
@@ -178,25 +178,25 @@ body {
   vertical-align: middle;
 }
 
-#courses {
+#education {
   margin-bottom: 45px;
   margin-top: 45px;
   padding: 20px 20px;
 }
 
-.courses {
+.education {
   display: flex;
   justify-content: center;
   margin-bottom: 97px;
   padding: 2px auto;
 }
 
-.courses__list {
+.education__list {
   display: flex;
   justify-content: center;
 }
 
-.courses__item {
+.education__link {
   display: flex;
   justify-content: center;
   color: whitesmoke;
@@ -221,7 +221,7 @@ body {
   justify-content: center;
 }
 
-.projects__item {
+.projects__link {
   display: flex;
   justify-content: center;
   color: whitesmoke;
